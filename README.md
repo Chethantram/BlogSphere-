@@ -19,7 +19,7 @@ Responsive Design: The application adjusts seamlessly to various screen sizes, p
 
 Node.js
 
-npm or yarn
+npm
 
 Next.js framework
 
@@ -33,7 +33,7 @@ Clone the repository:
 
 1 . git clone
 ```bash
-https://github.com/yourusername/blogsphere.git
+https://github.com/Chethantram/BlogSphere-.git
 ```
 
 
@@ -42,15 +42,12 @@ https://github.com/yourusername/blogsphere.git
 npm install
 ```
 
-3 . Set up environment variables:
 
-Create a .env.local file in the root directory and include your Clerk API keys.
-
-4 . Run the application:
+3 . Run the application:
 ```bash
 npm run dev
 ```
-5 . Open your browser and navigate to http://localhost:3000.
+4 . Open your browser and navigate to http://localhost:3000.
 
 # Code Structure
 
