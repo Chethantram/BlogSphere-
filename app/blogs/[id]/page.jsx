@@ -28,7 +28,7 @@ const page = ({ params }) => {
       <div className=" max-h-[500px] bg-gray-300">
         <nav className="flex justify-between items-center px-5 py-5 md:px-20 md:py-15 ">
           <Link href={"/"}>
-            <div className="text-4xl font-bold border-none outline-none">
+            <div className="text-2xl md:text-4xl font-bold border-none outline-none">
               BlogSphere
             </div>
           </Link>
@@ -62,15 +62,15 @@ const page = ({ params }) => {
             className="mx-auto my-16 object-cover border-2"
           />
         </div>
-        <div className=" mx-5 md:mx-auto max-w-[900px]">
+        <div className=" mx-5 md:mx-8 lg:mx-auto max-w-[900px] text-gray-800">
           <h2 className="text-3xl font-bold my-20">Introduction:</h2>
           <div
-            className="blog-content"
+            className="blog-content  "
             dangerouslySetInnerHTML={{ __html: data.description }}
           ></div>
         </div>
 
-        <div className="mt-32 8 space-y-5 mx-5 md:mx-auto max-w-[900px]">
+        <div className="mt-32  space-y-5 text-gray-800 mx-4 md:mx-8 lg:mx-auto max-w-[900px]">
           <p className="text-md text-semibold">You Can Share on Social Media</p>
           <div className="flex items-center gap-4">
             <Image
